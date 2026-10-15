@@ -39,7 +39,6 @@ const config: Config = {
           routeBasePath: 'docs',
           // Needs git history, so only enabled in CI (or set SHOW_LAST_UPDATE=1 locally after your first commit).
           showLastUpdateTime: !!(process.env.CI || process.env.SHOW_LAST_UPDATE),
-          editUrl: `https://github.com/${GITHUB_ORG}/${GITHUB_REPO}/tree/main/site/`,
         },
         blog: false,
         theme: {
