@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // TODO: set these to your GitHub account/org and repository name.
-const GITHUB_ORG = 'Aung-CodingStudio';
+const GITHUB_ORG = 'Coding-Studio-Myanmar';
 const GITHUB_REPO = 'helpsite';
 
 const config: Config = {
