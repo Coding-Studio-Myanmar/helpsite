@@ -16,7 +16,7 @@ const config: Config = {
   },
 
   // GitHub Pages: https://<org>.github.io/<repo>/
-  // If you use a custom domain (e.g. help.codingstudio.net), set url to it and baseUrl to '/'.
+  // If you use a custom domain (e.g. help.codingstudio.ltd), set url to it and baseUrl to '/'.
   url: `https://${GITHUB_ORG}.github.io`,
   baseUrl: `/${GITHUB_REPO}/`,
   organizationName: GITHUB_ORG,
@@ -82,8 +82,8 @@ const config: Config = {
         {to: '/docs/training', label: 'Training', position: 'left'},
         {to: '/docs/getting-started', label: 'Getting Started', position: 'left'},
         {
-          href: 'https://codingstudio.net',
-          label: 'codingstudio.net',
+          href: 'https://codingstudio.ltd',
+          label: 'codingstudio.ltd',
           position: 'right',
         },
       ],
@@ -100,7 +100,7 @@ const config: Config = {
         },
         {
           title: 'Company',
-          items: [{label: 'Coding Studio', href: 'https://codingstudio.net'}],
+          items: [{label: 'Coding Studio', href: 'https://codingstudio.ltd'}],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Coding Studio. Built with Docusaurus.`,

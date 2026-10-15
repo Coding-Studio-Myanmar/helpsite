@@ -18,7 +18,7 @@ npm run build    # production build
 3. Edit `GITHUB_ORG` / `GITHUB_REPO` at the top of `site/docusaurus.config.ts`.
 4. Every push to `main` deploys automatically (`.github/workflows/deploy.yml`).
 
-Custom domain (e.g. `help.codingstudio.net`): add it in Settings → Pages, create a CNAME DNS record to `<org>.github.io`, then set `url` to the domain and `baseUrl` to `'/'` in the config.
+Custom domain (e.g. `help.codingstudio.ltd`): add it in Settings → Pages, create a CNAME DNS record to `<org>.github.io`, then set `url` to the domain and `baseUrl` to `'/'` in the config.
 
 Authoring guide: `site/docs/_templates/README.md`.
 
