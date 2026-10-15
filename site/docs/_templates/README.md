@@ -2,7 +2,7 @@
 
 ## Add a new product
 
-1. Copy `docs/product-a` to `docs/<new-product>` (use lowercase and hyphens).
+1. Copy any product folder, e.g. `docs/event-studio`, to `docs/<new-product>` (use lowercase and hyphens).
 2. Edit `index.md` and update titles in each section.
 3. Add a card for it in `src/pages/index.tsx` (the `products` list).
 

@@ -17,13 +17,13 @@ const categories: CardItem[] = [
   },
   {
     title: 'How-To Guides',
-    description: 'Step-by-step instructions for common tasks.',
-    to: '/docs/product-a/how-to',
+    description: 'Step-by-step instructions for common tasks. Choose a product below.',
+    to: '/#products',
   },
   {
     title: 'Technical Documentation',
-    description: 'Architecture, configuration, APIs and integration references.',
-    to: '/docs/product-a/technical',
+    description: 'Configuration and reference material. Choose a product below.',
+    to: '/#products',
   },
   {
     title: 'Training Guides',
@@ -34,9 +34,54 @@ const categories: CardItem[] = [
 
 const products: CardItem[] = [
   {
-    title: 'Product A',
-    description: 'Sample product section. Duplicate it for each product or application.',
-    to: '/docs/product-a',
+    title: 'Event Studio',
+    description: 'Guides, technical documentation and training for Event Studio.',
+    to: '/docs/event-studio',
+  },
+  {
+    title: 'DocGen Studio',
+    description: 'Guides, technical documentation and training for DocGen Studio.',
+    to: '/docs/docgen-studio',
+  },
+  {
+    title: 'Vote Studio',
+    description: 'Guides, technical documentation and training for Vote Studio.',
+    to: '/docs/vote-studio',
+  },
+  {
+    title: 'Space Studio',
+    description: 'Guides, technical documentation and training for Space Studio.',
+    to: '/docs/space-studio',
+  },
+  {
+    title: 'Dedupe Manager',
+    description: 'Guides, technical documentation and training for Dedupe Manager.',
+    to: '/docs/dedupe-manager',
+  },
+  {
+    title: 'Salesforce Trigger Manager',
+    description: 'Guides, technical documentation and training for Salesforce Trigger Manager.',
+    to: '/docs/salesforce-trigger-manager',
+  },
+  {
+    title: 'AWS File Manager',
+    description: 'Guides, technical documentation and training for AWS File Manager.',
+    to: '/docs/aws-file-manager',
+  },
+  {
+    title: 'SharePoint File Manager',
+    description: 'Guides, technical documentation and training for SharePoint File Manager.',
+    to: '/docs/sharepoint-file-manager',
+  },
+  {
+    title: 'Dropbox File Manager',
+    description: 'Guides, technical documentation and training for Dropbox File Manager.',
+    to: '/docs/dropbox-file-manager',
+  },
+  {
+    title: 'Google Drive File Manager',
+    description: 'Guides, technical documentation and training for Google Drive File Manager.',
+    to: '/docs/google-drive-file-manager',
   },
 ];
 
@@ -84,7 +129,7 @@ export default function Home(): ReactNode {
         </section>
         <section className={styles.section}>
           <div className="container">
-            <Heading as="h2">Products</Heading>
+            <Heading as="h2" id="products">Products</Heading>
             <Cards items={products} />
           </div>
         </section>
