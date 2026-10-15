@@ -1,0 +1,32 @@
+/* Coding Studio brand: amber #F7A81B and plum #9B2C6A (from the logo) */
+:root {
+  --ifm-color-primary: #9b2c6a;
+  --ifm-color-primary-dark: #8b275f;
+  --ifm-color-primary-darker: #832559;
+  --ifm-color-primary-darkest: #6c1f49;
+  --ifm-color-primary-light: #ab3175;
+  --ifm-color-primary-lighter: #b3347b;
+  --ifm-color-primary-lightest: #c93f8d;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --cs-amber: #f7a81b;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #f7a81b;
+  --ifm-color-primary-dark: #e89a08;
+  --ifm-color-primary-darker: #db9108;
+  --ifm-color-primary-darkest: #b47707;
+  --ifm-color-primary-light: #f8b33a;
+  --ifm-color-primary-lighter: #f9b94b;
+  --ifm-color-primary-lightest: #fbcc79;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__logo img {
+  border-radius: 4px;
+}
+
+.navbar__title {
+  font-weight: 700;
+}
